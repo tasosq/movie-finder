@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-image: url('./bg-red.jpg');
+    background-image: url('./img/bg-red.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -29,7 +29,7 @@ body {
 .search {
     width: 320px;
 	height: 50px;
-	background-image: url('./search.png');
+	background-image: url('./img/search.png');
 	background-position: left;
 	background-repeat: no-repeat;
 	background-size: 45px 45px;
@@ -116,7 +116,7 @@ img:hover {
 @media screen and (max-width: 992px) {
     body {
         height: 100%;
-        background-image: url("./bg-red.jpg");
+        background-image: url("./img/bg-red.jpg");
         background-size: cover;
     }
     .poster{
@@ -138,7 +138,7 @@ img:hover {
     margin-left: 5px;
     border: 0px;
     margin-top: 5px;
-    background: url('./dice.svg');
+    background: url('./img/dice.svg');
     color: inherit;
     background-size: cover;
     background-color: inherit;
