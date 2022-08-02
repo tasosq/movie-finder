@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {min-height: 100%;}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('./bg-red.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header {
+    font-size: 3.2em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: antiquewhite;
+    
+}
+.search {
+    width: 320px;
+	height: 50px;
+	background-image: url('./search.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 45px 45px;
+	padding-left: 45px;
+    background-color: transparent;
+    color: antiquewhite;
+    
+}
+
+.search::placeholder {
+    color: white;
+}
+
+.rounded {
+    border-radius: 18px;
+	border: 1.5px solid black;
+}
+
+.search-wrapper {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.poster {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    margin-left: 15px;
+}
+
+.imdbRating {
+    margin-top: 25px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+
+
+h4 {
+    margin-top: 30px;
+    font-weight: 400;
+    color: antiquewhite;
+}
+
+img {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: all ease-in 200ms;
+    border-radius: 5px;
+  
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.plot {
+    display: flex;
+    width: 400px;
+    color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        height: 100%;
+        background-image: url("./bg-red.jpg");
+        background-size: cover;
+    }
+    .poster{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plot {
+        margin-top: 30px;
+    }
+  }
+
+  .random {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 5px;
+    border: 0px;
+    margin-top: 5px;
+    background: url('./dice.svg');
+    color: inherit;
+    background-size: cover;
+    background-color: inherit;
+    transition: all ease-in-out 200ms;
+   
+  }
+
+  .random:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+  }
+
+  .btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .title {
+    font-size: 2.1em;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+.not-found {
+    color: antiquewhite;
+    font-size: 1.5em;
+    font-weight: 300;
+  }
