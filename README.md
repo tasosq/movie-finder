@@ -6,4 +6,4 @@ A reponsive single-page application for searching movies, implementing the [OMDb
 ## Technologies used:
 - HTML
 - CSS
-- JS & Jquery
+- JS & JQuery
